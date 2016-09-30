@@ -6,7 +6,7 @@ année données.
 Pratique pour se constituer rapidement une grosse playlist pour les
 soirées privées.
 
-Les tubes sont tirés du site chartsinfrance.net, le calssement officiel
+Les tubes sont tirés du site [http://www.chartsinfrance.net], le calssement officiel
 des meilleures ventes de single depuis 1984.
 Les 20 premiers de chaque semaine sont récupérées en éliminant les
 doublons.
@@ -16,25 +16,30 @@ doublons.
 - une distribution Linux avec Python (Debian par ex)
 
 - la librairie python urllib3
+     ```
      sudo apt-get install python-urllib3
-
+     ```
 - les convertisseurs multimedia
+     ```
 	sudo apt-get install ffmpeg,lame
-	
+     ```	
 - la dernière version de youtube-dl (https://yt-dl.org/)
      La méthode simple est d'utiliser pypi
+     ```
      sudo apt-get install python-pip
      sudo pip install --upgrade youtube-dl
-     
+     ```
 ##Utilisation
 1) Se mettre dans un dossier avec de l'espace disque
 
 2) Lancer le script
-python aspitubes.py ANNEE
+     ```
+     python aspitubes.py ANNEE
+     ```
 ANNEE est l'année choisie >= 1984
 
 3) attendre plus ou moins longtemps en fonction du débit Internet
-les mp3 sont rangés dans le dossier ANNEE sous la forme "artiste - titre.mp3".
+les mp3 sont rangés dans le dossier ANNEE sous la forme `artiste - titre.mp3`.
 
 ##A faire ensuite
 
