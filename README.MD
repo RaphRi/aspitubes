@@ -28,9 +28,9 @@ doublons.
      
 ##Utilisation
 1) Se mettre dans un dossier avec de l'espace disque
+
 2) Lancer le script
 python aspitubes.py ANNEE
-
 ANNEE est l'année choisie >= 1984
 
 3) attendre plus ou moins longtemps en fonction du débit Internet
@@ -40,6 +40,7 @@ les mp3 sont rangés dans le dossier ANNEE sous la forme "artiste - titre.mp3".
 
 Cet outil est certe bien pratique, mais il faut encore pas mal de boulot de tri
 derrière.
+
 1) Trier dans des playlists en .m3u thématique pour rendre l'ensemble plus exploitable
 Exemple : tubes 80, Slows 80, Rock 80, Dance 90, ...
 J'utilise foobar2000 pour ça. Avec son sytème d'onglet hautement configurable
